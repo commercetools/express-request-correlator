@@ -16,7 +16,7 @@
     "test:coverage": "cross-env NODE_ENV=test npm test -- --coverage",
     "prebuild": "rimraf dist/**",
     "build": "exit 0",
-    "release": "npm run build && lerna publish --registry=https://registry.npmjs.org/"
+    "release": "npm run build && np"
   },
   "files": [
     "readme.md",
@@ -52,6 +52,7 @@
     "eslint-plugin-prettier": "3.1.0",
     "husky": "3.0.5",
     "jest": "24.9.0",
+    "np": "5.1.0",
     "jest-plugin-filename": "0.0.1",
     "jest-runner-eslint": "0.7.4",
     "lerna": "3.16.4",
