@@ -36,7 +36,7 @@ or
 
 ## ❯ Concepts
 
-A correlation id, also known as a unique identifier that is attached to requests that allow reference to a particular transaction or event chain. In the case of multiple microservices it is used to correlate an incoming request to other resulting requests to other services. As a result a correlation ID should be passed on as soon as found on an incoming request. If not found it should be generated as soon as possible to have a correlatable request chain as early as possible. Ultimatively this helps enabling a concept called distributed tracing in a distributed system.
+A correlation id, also known as a unique identifier that is attached to requests that allow reference to a particular transaction or event chain. In the case of multiple microservices it is used to correlate an incoming request to other resulting requests to other services. As a result a correlation idshould be passed on as soon as found on an incoming request. If not found it should be generated as soon as possible to have a correlatable request chain as early as possible. Ultimatively this helps enabling a concept called distributed tracing in a distributed system.
 
 Usually correlation ids are passed as a header. The specific name of that header differs. Often `X-Correlation-Id` is used. Generally multiple services in a fleet/architecture should agree on a shared name and location (e.g. header) of the id. However, it is possible that service A makes a request with a correlation id named (`X-Request-Id`) to service B which forwards it as `X-Correlation-Id`.
 
@@ -85,7 +85,7 @@ getHeaderName(): string,
 forwardCorrelationId({ headers }: TForwardCorrelationIdOptions): TCorrelationId
 ```
 
-1. If for instance you need to retrieve the current request's correlation id invoke `request.correlator.getCorrelationId()`.
+1. If for instance you need to retrieve the current request's correlation id invoke `request.correlator.getCorrelationId()`
 2. If you want to forward the correlation id to another request's headers run `request.correlator.forwardCorrelationId({ headers })`
    - This will mutate the passed in headers to contain the previous request's correlation id
 
@@ -97,7 +97,7 @@ Note, that `getCorrelationId` and `forwardCorrelationId` both accept a object wi
 }
 ```
 
-Whenever `ifNotDefined` is passed it is used to generate a new correlation ID given the request does not already have one. Whenever `ifNotDefined` is not passed the "globally" configured `generate` function will be used if not correlation ID is present on the request.
+Whenever `ifNotDefined` is passed it is used to generate a new correlation idgiven the request does not already have one. Whenever `ifNotDefined` is not passed the "globally" configured `generate` function will be used if not correlation idis present on the request.
 
 ## ❯ Testing
 
