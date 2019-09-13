@@ -14,10 +14,15 @@
     "test:ci:coverage": "cross-env NODE_ENV=test npm test -- --no-watchman --coverage && codecov",
     "test:watch": "cross-env NODE_ENV=test npm test -- --watch",
     "test:coverage": "cross-env NODE_ENV=test npm test -- --coverage",
-    "build": "lerna run build",
-    "build:watch": "lerna run build:watch",
+    "prebuild": "rimraf dist/**",
+    "build": "exit 0",
     "release": "npm run build && lerna publish --registry=https://registry.npmjs.org/"
   },
+  "files": [
+    "readme.md",
+    "package.json",
+    "lib/**/*.js"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/commercetools/express-request-correlator.git"
