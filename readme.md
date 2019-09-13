@@ -19,10 +19,10 @@
 
 > These packages are a combination of observations and experiences we have had with other middlewares which we tried to improve.
 
-1. 🎨 Customized correlation ids: sometimes one needs to customize correlation ids. For instance adding prefix based on the incoming request
-2. 🍕 Forwarding correlation ids: oftentimes an incoming correlation id needs to be forwarded as a header to another request convienently
-3. 🏄🏻 Opting out of correlation ids: cases exist where a correlation id can not be generated while the fact should be logged
-4. 👌🏼 Inspecting correlation ids: the correlation id of a request should be easy to extract without knowing the specific header
+1. 🎨 **Customized** correlation ids: sometimes one needs to customize correlation ids. For instance adding prefix based on the incoming request
+2. 🍕 **Forwarding** correlation ids: oftentimes an incoming correlation id needs to be forwarded as a header to another request convienently
+3. 🏄🏻 **Opting out** of correlation ids: cases exist where a correlation id can not be generated while the fact should be logged
+4. 👌🏼 **Inspecting** correlation ids: the correlation id of a request should be easy to extract without knowing the specific header
 
 ## ❯ Installation
 
