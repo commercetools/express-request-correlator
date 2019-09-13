@@ -18,6 +18,7 @@
     "build": "exit 0",
     "release": "npm run build && np"
   },
+  "main": "lib/index.js",
   "files": [
     "readme.md",
     "package.json",
@@ -59,6 +60,9 @@
     "lint-staged": "9.2.5",
     "prettier": "1.18.2",
     "rimraf": "3.0.0"
+  },
+  "dependencies": {
+    "uuid": "3.3.3"
   },
   "keywords": [
     "express",
