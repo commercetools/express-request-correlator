@@ -5,8 +5,9 @@
 <h2 align="center">🧷 express-request-correlator - correlate requests running through express through correlation ids. 🚦</h2>
 
 <p align="center">
-  <a href="https://circleci.com/gh/commercetools/express-request-correlator">
-    <img alt="CircleCI Status" src="https://circleci.com/gh/commercetools/express-request-correlator.svg?style=shield&circle-token=6b914111cae6bac8d92ab82ff1e84fdf64424e78">
+  <a href="https://github.com/commercetools/express-request-correlator/actions">
+    <img alt="CI Status" src="https://github.com/commercetools/express-request-correlator/workflows/express-request-correlator/badge.svg
+">
   </a>
   <a href="https://codecov.io/gh/commercetools/express-request-correlator">
     <img alt="Codecov Coverage Status" src="https://img.shields.io/codecov/c/github/commercetools/express-request-correlator.svg?style=flat-square">
@@ -39,7 +40,7 @@ or
 
 A correlation id, also known as a unique identifier that is attached to requests that allow reference to a particular transaction or event chain. In the case of multiple microservices it is used to correlate an incoming request to other resulting requests to other services. As a result a correlation ID should be passed on as soon as found on an incoming request. If not found it should be generated as soon as possible to have a correlatable request chain as early as possible. Ultimatively this helps enabling a concept called distributed tracing in a distributed system.
 
-Usually correlation IDs are passed as a header. The specific name of that header differs. Often `X-Correlation-Id` is used. Generally multiple services in a fleet/architecture should agree on a shared name and location (e.g. header) of the id. However, it is possible that service A makes a request with a correlation ID named (`X-Request-Id`) to service B which forwards it as `X-Correlation-Id`.
+Usually correlation ids are passed as a header. The specific name of that header differs. Often `X-Correlation-Id` is used. Generally multiple services in a fleet/architecture should agree on a shared name and location (e.g. header) of the id. However, it is possible that service A makes a request with a correlation id named (`X-Request-Id`) to service B which forwards it as `X-Correlation-Id`.
 
 ## ❯ Documentation
 
@@ -65,7 +66,7 @@ app.use(createRequestCorrelatorMiddleware());
 
 Configuring the middleware on your express application exposes a `correlator` property on each request. This property exposing the following API:
 
-```js
+```ts
 type TMiddlewareOptions = {
   headerName: string,
   generateId: (options: TGenerateIdOptions) => TCorrelationId,
