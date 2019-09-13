@@ -2,7 +2,7 @@
   <img alt="Logo" height="150" src="https://raw.githubusercontent.com/commercetools/express-request-correlator/master/logo.png" /><br /><br />
 </p>
 
-<h2 align="center">🧷 express-request-correlator - correlate requests running through express through correlation ids. 🚦</h2>
+<h2 align="center">🧷 Correlate requests running through express through correlation ids ⚙️</h2>
 
 <p align="center">
   <a href="https://github.com/commercetools/express-request-correlator/actions">
