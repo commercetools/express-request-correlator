@@ -16,10 +16,19 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: ${{ matrix.node-version }}
-      - name: npm install, build, and test
-        run: |
-          npm install
-          npm run build --if-present
-          npm test
-        env:
-          CI: true
+      - name: Install
+        uses: Borales/actions-yarn@master
+        with:
+          args: install
+      - name: Lint
+        uses: Borales/actions-yarn@master
+        with:
+          args: lint
+      - name: Test
+        uses: Borales/actions-yarn@master
+        with:
+          args: test
+      - name: Build
+        uses: Borales/actions-yarn@master
+        with:
+          args: build
