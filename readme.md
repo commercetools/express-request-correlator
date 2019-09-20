@@ -65,6 +65,10 @@ app.use(createRequestCorrelatorMiddleware());
 Configuring the middleware on your express application exposes a `correlator` property on each request. This property exposing the following API:
 
 ```ts
+type TCorrelationId = ?string;
+type TGenerateIdOptions = {
+  request: express$Request,
+};
 type TMiddlewareOptions = {
   headerName: string,
   generateId: (options: TGenerateIdOptions) => TCorrelationId,
