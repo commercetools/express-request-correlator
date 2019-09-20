@@ -6,13 +6,12 @@
 
 <p align="center">
   <a href="https://github.com/commercetools/express-request-correlator/actions">
-    <img alt="CI Status" src="https://github.com/commercetools/express-request-correlator/workflows/express-request-correlator/badge.svg
-">
+    <img alt="CI Status" src="https://github.com/commercetools/express-request-correlator/workflows/express-request-correlator/badge.svg" />
   </a>
   <a href="https://codecov.io/gh/commercetools/express-request-correlator">
-    <img alt="Codecov Coverage Status" src="https://img.shields.io/codecov/c/github/commercetools/express-request-correlator.svg?style=flat-square">
+    <img alt="Codecov Coverage Status" src="https://img.shields.io/codecov/c/github/commercetools/express-request-correlator.svg?style=flat-square" />
   </a>
-  <img alt="Made with Coffee" src="https://img.shields.io/badge/made%20with-%E2%98%95%EF%B8%8F%20coffee-yellow.svg">
+  <img alt="Made with Coffee" src="https://img.shields.io/badge/made%20with-%E2%98%95%EF%B8%8F%20coffee-yellow.svg" />
 </p>
 
 ## ❯ Why another middleware for express to work with correlation ids?
