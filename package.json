@@ -1,5 +1,6 @@
 {
-  "name": "express-request-correlator",
+  "name": "@commercetools/express-request-correlator",
+  "version": "0.0.0",
   "description": "correlate requests running through express through correlation ids",
   "scripts": {
     "postinstall": "check-node-version --package --print",
