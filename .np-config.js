@@ -1,4 +1,4 @@
 module.exports = {
-  yarn: fatrue,
+  yarn: true,
   contents: 'lib',
 };
