@@ -1,0 +1,23 @@
+{
+  "extends": [
+    "config:base",
+    ":pinOnlyDevDependencies",
+    "schedule:weekly"
+  ],
+  "circleci": { "enabled": false },
+  "separateMajorMinor": true,
+  "groupName": "all dependencies",
+  "groupSlug": "all",
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "groupName": "all dependencies",
+      "groupSlug": "all"
+    }
+  ],
+  "lockFileMaintenance": {
+    "enabled": true
+  }
+}
