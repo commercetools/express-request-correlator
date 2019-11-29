@@ -22,11 +22,12 @@
     "typecheck": "flow check --include-warnings",
     "release": "npm run build && np"
   },
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "files": [
     "readme.md",
     "package.json",
-    "lib/**/*.js"
+    "dist/*.js",
+    "dist/*.flow"
   ],
   "repository": {
     "type": "git",
