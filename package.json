@@ -1,7 +1,7 @@
 {
   "name": "@commercetools/express-request-correlator",
   "version": "0.0.0",
-  "description": "correlate requests running through express through correlation ids",
+  "description": "Correlate requests running through express through correlation ids",
   "scripts": {
     "postinstall": "check-node-version --package --print",
     "develop": "jest --projects .jestrc.*.json --watch",
