@@ -9,6 +9,7 @@ parserOptions:
 extends:
   - xo
   - prettier
+  - plugin:flowtype/recommended
   - plugin:jest/recommended
 env:
   es6: true
@@ -30,3 +31,6 @@ rules:
     - 20
 globals:
   VERSION: true
+settings:
+  flowtype:
+    onlyFilesWithFlowAnnotation: true

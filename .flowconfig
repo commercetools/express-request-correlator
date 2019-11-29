@@ -1,0 +1,26 @@
+[version]
+^0.112.0
+
+[libs]
+flow-typed
+
+[lints]
+# https://dev.to/wgao19/making-flow-happy-after-0-98-32bb
+# NOTE: express flow-typed currently contain some `$Subtype` types.
+deprecated-utility=off
+
+[options]
+emoji=true
+include_warnings=true
+
+server.max_workers=2
+
+suppress_type=$FlowIssue
+suppress_type=$FlowFixMe
+
+[strict]
+nonstrict-import
+unclear-type
+unsafe-getters-setters
+untyped-import
+untyped-type-import
