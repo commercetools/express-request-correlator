@@ -1,6 +1,6 @@
 {
   "name": "@commercetools/express-request-correlator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Correlate requests running through express through correlation ids",
   "scripts": {
     "develop": "jest --projects .jestrc.*.json --watch",
