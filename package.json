@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Correlate requests running through express through correlation ids",
   "scripts": {
-    "postinstall": "check-node-version --package --print",
     "develop": "jest --projects .jestrc.*.json --watch",
     "lint": "jest --config .jestrc.lint.json",
     "format": "npm run format:md && npm run format:js",
@@ -53,7 +52,6 @@
     "@commitlint/cli": "8.2.0",
     "@commitlint/config-conventional": "8.2.0",
     "babel-eslint": "10.0.3",
-    "check-node-version": "4.0.1",
     "codecov": "3.6.1",
     "cross-env": "6.0.3",
     "eslint": "6.7.2",
