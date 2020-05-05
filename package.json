@@ -53,7 +53,7 @@
     "@commitlint/config-conventional": "8.2.0",
     "babel-eslint": "10.0.3",
     "codecov": "3.6.1",
-    "cross-env": "6.0.3",
+    "cross-env": "7.0.2",
     "eslint": "6.7.2",
     "eslint-config-prettier": "6.7.0",
     "eslint-config-xo": "0.27.2",
@@ -63,19 +63,19 @@
     "eslint-plugin-prettier": "3.1.1",
     "flow-bin": "0.112.0",
     "flow-copy-source": "2.0.9",
-    "flow-typed": "2.6.2",
-    "husky": "3.1.0",
-    "jest": "24.9.0",
+    "flow-typed": "3.1.0",
+    "husky": "4.2.5",
+    "jest": "26.0.1",
     "jest-plugin-filename": "0.0.1",
     "jest-runner-eslint": "0.7.5",
     "lerna": "3.19.0",
-    "lint-staged": "9.5.0",
-    "np": "5.2.1",
-    "prettier": "1.19.1",
+    "lint-staged": "10.2.2",
+    "np": "6.2.3",
+    "prettier": "2.0.5",
     "rimraf": "3.0.0"
   },
   "dependencies": {
-    "uuid": "3.3.3"
+    "uuid": "8.0.0"
   },
   "keywords": [
     "express",
