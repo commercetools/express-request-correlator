@@ -64,7 +64,7 @@
     "flow-bin": "0.112.0",
     "flow-copy-source": "2.0.9",
     "flow-typed": "2.6.2",
-    "husky": "3.1.0",
+    "husky": "4.3.8",
     "jest": "24.9.0",
     "jest-plugin-filename": "0.0.1",
     "jest-runner-eslint": "0.7.5",
