@@ -63,7 +63,7 @@
     "eslint-plugin-prettier": "3.1.1",
     "flow-bin": "0.112.0",
     "flow-copy-source": "2.0.9",
-    "flow-typed": "2.6.2",
+    "flow-typed": "3.3.1",
     "husky": "3.1.0",
     "jest": "24.9.0",
     "jest-plugin-filename": "0.0.1",
