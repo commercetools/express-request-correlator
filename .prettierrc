@@ -1,4 +1,13 @@
 {
   "trailingComma": "es5",
-  "singleQuote": true
+  "singleQuote": true,
+  "parser": "typescript",
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "parser": "json"
+      }
+    }
+  ]
 }
