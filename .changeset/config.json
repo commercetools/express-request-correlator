@@ -1,0 +1,13 @@
+{
+  "$schema": "https://unpkg.com/@changesets/config@1.6.1/schema.json",
+  "changelog": [
+    "@changesets/changelog-github",
+    {
+      "repo": "commercetools/express-request-correlator"
+    }
+  ],
+  "commit": false,
+  "linked": [],
+  "access": "restricted",
+  "baseBranch": "main"
+}
