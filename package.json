@@ -4,7 +4,6 @@
   "description": "Express middleware to help tracing correlation IDs",
   "scripts": {
     "prepare": "husky install",
-    "postinstall": "preconstruct dev",
     "build": "preconstruct build",
     "watch": "preconstruct watch",
     "clean": "manypkg exec rm -rf build dist",
@@ -42,6 +41,7 @@
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "13.2.0",
     "@manypkg/cli": "0.18.0",
+    "@preconstruct/cli": "2.1.5",
     "@types/jest": "^26.0.20",
     "@types/node": "16.4.13",
     "babel-jest": "27.2.5",
@@ -62,7 +62,6 @@
   "dependencies": {
     "@babel/runtime": "^7.13.10",
     "@babel/runtime-corejs3": "^7.13.10",
-    "@preconstruct/cli": "2.1.5",
     "@types/express": "4.17.13",
     "@types/uuid": "8.3.1",
     "uuid": "8.3.2"

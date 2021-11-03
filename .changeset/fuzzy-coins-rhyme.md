@@ -2,4 +2,4 @@
 '@commercetools/express-request-correlator': patch
 ---
 
-fix(deps): move preconstruct to dependencies
+fix(build): remove postinstall script
