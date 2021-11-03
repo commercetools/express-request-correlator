@@ -4,7 +4,6 @@
   "description": "Express middleware to help tracing correlation IDs",
   "scripts": {
     "prepare": "husky install",
-    "postinstall": "preconstruct dev",
     "build": "preconstruct build",
     "watch": "preconstruct watch",
     "clean": "manypkg exec rm -rf build dist",
