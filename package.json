@@ -14,11 +14,17 @@
     "format:md": "prettier --write --parser markdown '**/*.md'",
     "test": "jest --config jest.test.config.js",
     "typecheck": "tsc --noEmit",
-    "changeset:version-and-format": "changeset version && prettier --write --parser json '**/package.json'"
+    "changeset:version-and-format": "changeset version && prettier --write --parser json '**/package.json' && YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn install"
   },
   "main": "dist/commercetools-express-request-correlator.cjs.js",
   "module": "dist/commercetools-express-request-correlator.esm.js",
-  "files": ["dist", "test-utils", "package.json", "LICENSE", "README.md"],
+  "files": [
+    "dist",
+    "test-utils",
+    "package.json",
+    "LICENSE",
+    "README.md"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/commercetools/express-request-correlator.git"
@@ -26,12 +32,14 @@
   "bugs": "https://github.com/commercetools/express-request-correlator/issues",
   "author": "Tobias Deekens <nerd@tdeekens.name>",
   "license": "MIT",
-  "private": false,
   "publishConfig": {
     "access": "public"
   },
   "preconstruct": {
-    "entrypoints": ["./index.ts", "./test-utils.ts"]
+    "entrypoints": [
+      "./index.ts",
+      "./test-utils.ts"
+    ]
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.1",
@@ -69,8 +77,14 @@
   "peerDependencies": {
     "express": ">=4"
   },
-  "keywords": ["express", "devops", "logs", "tracing"],
+  "keywords": [
+    "express",
+    "devops",
+    "logs",
+    "tracing"
+  ],
   "engines": {
     "node": ">=12 || >=14 || >=16"
-  }
+  },
+  "packageManager": "yarn@3.1.0"
 }
