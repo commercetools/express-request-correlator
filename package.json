@@ -3,8 +3,6 @@
   "version": "3.0.0",
   "description": "Express middleware to help tracing correlation IDs",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
-    "postinstall": "./scripts/postinstall.sh",
     "build": "preconstruct build",
     "watch": "preconstruct watch",
     "clean": "manypkg exec rm -rf build dist",
