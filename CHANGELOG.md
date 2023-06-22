@@ -1,5 +1,17 @@
 # @commercetools/express-request-correlator
 
+## 3.0.0
+
+### Major Changes
+
+- [#76](https://github.com/commercetools/express-request-correlator/pull/76) [`bfda418`](https://github.com/commercetools/express-request-correlator/commit/bfda4186c57c7a64d3fa655311462eb5079d1d18) Thanks [@emmenko](https://github.com/emmenko)! - Update all dependencies.
+
+  Additionally, we drop support for node v12 and v14.
+
+### Minor Changes
+
+- [#80](https://github.com/commercetools/express-request-correlator/pull/80) [`1af7a7e`](https://github.com/commercetools/express-request-correlator/commit/1af7a7e252bc70446cfd083c5bef3151cb6f4955) Thanks [@emmenko](https://github.com/emmenko)! - Migrate to pnpm
+
 ## 2.0.1
 
 ### Patch Changes
