@@ -1,5 +1,11 @@
 # @commercetools/express-request-correlator
 
+## 3.0.1
+
+### Patch Changes
+
+- [`05fbe71`](https://github.com/commercetools/express-request-correlator/commit/05fbe71e5c737cf6d340920e20157604391cacf0) Thanks [@emmenko](https://github.com/emmenko)! - Remove postinstall script
+
 ## 3.0.0
 
 ### Major Changes
