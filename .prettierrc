@@ -1,8 +1,26 @@
 {
   "trailingComma": "es5",
   "singleQuote": true,
-  "parser": "typescript",
+  "parser": "babel",
   "overrides": [
+    {
+      "files": "*.ts",
+      "options": {
+        "parser": "typescript"
+      }
+    },
+    {
+      "files": "*.yaml",
+      "options": {
+        "parser": "yaml"
+      }
+    },
+    {
+      "files": "*.md",
+      "options": {
+        "parser": "markdown"
+      }
+    },
     {
       "files": "*.json",
       "options": {

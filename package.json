@@ -3,17 +3,19 @@
   "version": "2.0.1",
   "description": "Express middleware to help tracing correlation IDs",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "postinstall": "./scripts/postinstall.sh",
     "build": "preconstruct build",
     "watch": "preconstruct watch",
     "clean": "manypkg exec rm -rf build dist",
     "lint": "jest --projects jest.eslint.config.js",
     "lint:js": "jest --config jest.eslint.config.js",
-    "format": "yarn format:js && yarn format:md",
+    "format": "pnpm format:js && pnpm format:md",
     "format:js": "prettier --write '**/*.{js,ts,tsx}'",
     "format:md": "prettier --write --parser markdown '**/*.md'",
     "test": "jest --config jest.test.config.js",
     "typecheck": "tsc --noEmit",
-    "changeset:version-and-format": "changeset version && prettier --write --parser json '**/package.json' && YARN_ENABLE_IMMUTABLE_INSTALLS=false yarn install"
+    "changeset:version-and-format": "changeset version && prettier --write --parser json '**/package.json' && pnpm install --lockfile-only"
   },
   "main": "dist/commercetools-express-request-correlator.cjs.js",
   "module": "dist/commercetools-express-request-correlator.esm.js",
@@ -56,6 +58,7 @@
     "@commitlint/config-conventional": "17.6.5",
     "@manypkg/cli": "0.21.0",
     "@preconstruct/cli": "2.7.0",
+    "@tsconfig/node18": "2.0.1",
     "@types/jest": "29.5.2",
     "@types/node": "18.16.18",
     "babel-jest": "29.5.0",
@@ -86,5 +89,5 @@
   "engines": {
     "node": ">=16"
   },
-  "packageManager": "yarn@3.6.0"
+  "packageManager": "pnpm@8.6.0"
 }
