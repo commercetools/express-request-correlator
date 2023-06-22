@@ -9,7 +9,7 @@ module.exports = {
       ],
     },
     resolvePluginsRelativeTo: require.resolve(
-      '@commercetools-frontend/eslint-config-mc-app'
+      '@commercetools-backend/eslint-config-node'
     ),
   },
 };

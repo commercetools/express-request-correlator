@@ -1,4 +1,5 @@
 import type { Request, Response, NextFunction } from 'express';
+import { v4 as uuidV4 } from 'uuid';
 import type {
   TMiddlewareOptions,
   TCorrelatedRequest,
@@ -6,8 +7,6 @@ import type {
   TGetCorrelationId,
   TForwardCorrelationIdOptions,
 } from './types';
-
-import { v4 as uuidV4 } from 'uuid';
 
 const defaultMiddlewareOptions: TMiddlewareOptions = {
   headerName: 'x-correlation-id',
