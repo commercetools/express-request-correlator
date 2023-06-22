@@ -1,13 +1,19 @@
 module.exports = {
-  extends: ['@commercetools-frontend/eslint-config-mc-app'],
-  settings: {
-    react: {
-      // That's a lie, we don't use React here. However, the ESLint preset
-      // comes with the react plugin and `version: detect`, so we pass
-      // `latest` to avoid logging a warning.
-      // TODO: maybe we need to ship a more modular ESLint config,
-      // so that it can be used in a non-react environment.
-      version: 'latest',
-    },
+  extends: ['@commercetools-backend/eslint-config-node'],
+  rules: {
+    'import/order': [
+      'error',
+      {
+        alphabetize: { order: 'asc', caseInsensitive: true },
+        pathGroups: [
+          {
+            pattern: 'jest-mock',
+            group: 'external',
+            position: 'before',
+          },
+        ],
+        pathGroupsExcludedImportTypes: ['builtin'],
+      },
+    ],
   },
 };

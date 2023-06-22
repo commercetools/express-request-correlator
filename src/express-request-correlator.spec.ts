@@ -1,9 +1,8 @@
+import { mocked } from 'jest-mock';
 import type { Request, Response, NextFunction } from 'express';
-import type { TCorrelatedRequest } from './types';
-
-import { mocked } from 'ts-jest/utils';
 import { v4 as uuidV4 } from 'uuid';
 import { createRequestCorrelatorMiddleware } from './express-request-correlator';
+import type { TCorrelatedRequest } from './types';
 
 jest.mock('uuid');
 
