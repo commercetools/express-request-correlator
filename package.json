@@ -57,7 +57,7 @@
     "@manypkg/cli": "0.21.0",
     "@preconstruct/cli": "2.7.0",
     "@types/jest": "^29.5.2",
-    "@types/node": "18.11.9",
+    "@types/node": "18.16.18",
     "babel-jest": "29.5.0",
     "cross-env": "7.0.3",
     "eslint": "8.43.0",
