@@ -3,4 +3,4 @@
 set -e
 
 echo "Preparing development setup."
-yarn husky install
+pnpm husky install
