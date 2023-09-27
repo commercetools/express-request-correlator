@@ -27,7 +27,7 @@ jobs:
           token: ${{ steps.generate_github_token.outputs.token }}
 
       - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.4
+        uses: pnpm/action-setup@v2.4.0
         with:
           run_install: false
 
@@ -54,7 +54,7 @@ jobs:
 
       - name: Create Release Pull Request or Publish to npm
         id: changesets
-        uses: changesets/action@v1.4.4
+        uses: changesets/action@v1.4.5
         with:
           commit: 'ci(changesets): version packages'
           publish: pnpm changeset publish
