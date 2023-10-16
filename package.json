@@ -43,25 +43,25 @@
   "dependencies": {
     "@babel/runtime": "^7.22.5",
     "@babel/runtime-corejs3": "^7.22.5",
-    "@types/express": "4.17.18",
-    "@types/uuid": "9.0.4",
+    "@types/express": "4.17.19",
+    "@types/uuid": "9.0.5",
     "uuid": "9.0.1"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.4.8",
     "@changesets/cli": "2.26.2",
-    "@commercetools-backend/eslint-config-node": "22.8.1",
-    "@commercetools-frontend/babel-preset-mc-app": "22.8.1",
-    "@commitlint/cli": "17.7.1",
-    "@commitlint/config-conventional": "17.7.0",
+    "@commercetools-backend/eslint-config-node": "22.9.1",
+    "@commercetools-frontend/babel-preset-mc-app": "22.9.1",
+    "@commitlint/cli": "17.8.0",
+    "@commitlint/config-conventional": "17.8.0",
     "@manypkg/cli": "0.21.0",
     "@preconstruct/cli": "2.8.1",
     "@tsconfig/node18": "2.0.1",
     "@types/jest": "29.5.5",
-    "@types/node": "18.18.0",
+    "@types/node": "18.18.5",
     "babel-jest": "29.7.0",
     "cross-env": "7.0.3",
-    "eslint": "8.50.0",
+    "eslint": "8.51.0",
     "eslint-formatter-pretty": "5.0.0",
     "express": "4.18.2",
     "husky": "8.0.3",
@@ -87,5 +87,5 @@
   "engines": {
     "node": ">=16"
   },
-  "packageManager": "pnpm@8.8.0"
+  "packageManager": "pnpm@8.9.2"
 }
