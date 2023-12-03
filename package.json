@@ -70,7 +70,7 @@
     "jest-runner-eslint": "2.1.2",
     "jest-silent-reporter": "0.5.0",
     "jest-watch-typeahead": "2.2.2",
-    "lint-staged": "13.3.0",
+    "lint-staged": "15.2.0",
     "prettier": "2.8.8",
     "ts-jest": "29.1.1",
     "typescript": "5.2.2"
