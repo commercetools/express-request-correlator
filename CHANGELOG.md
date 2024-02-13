@@ -1,5 +1,13 @@
 # @commercetools/express-request-correlator
 
+## 3.0.2
+
+### Patch Changes
+
+- [#82](https://github.com/commercetools/express-request-correlator/pull/82) [`5cb1e74`](https://github.com/commercetools/express-request-correlator/commit/5cb1e74822af442f2894369c7a292784c0b06333) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update all dependencies
+
+- [#91](https://github.com/commercetools/express-request-correlator/pull/91) [`150aa26`](https://github.com/commercetools/express-request-correlator/commit/150aa26abf5f7c581f405f3bed6569411e8ba27a) Thanks [@renovate](https://github.com/apps/renovate)! - chore(deps): update all dependencies
+
 ## 3.0.1
 
 ### Patch Changes
