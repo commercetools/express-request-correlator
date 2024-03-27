@@ -47,8 +47,8 @@ devDependencies:
     specifier: 2.8.3
     version: 2.8.3
   '@tsconfig/node18':
-    specifier: 2.0.1
-    version: 2.0.1
+    specifier: 18.2.4
+    version: 18.2.4
   '@types/jest':
     specifier: 29.5.11
     version: 29.5.11
@@ -2677,8 +2677,8 @@ packages:
     resolution: {integrity: sha512-vxhUy4J8lyeyinH7Azl1pdd43GJhZH/tP2weN8TntQblOY+A0XbT8DJk1/oCPuOOyg/Ja757rG0CgHcWC8OfMA==}
     dev: true
 
-  /@tsconfig/node18@2.0.1:
-    resolution: {integrity: sha512-UqdfvuJK0SArA2CxhKWwwAWfnVSXiYe63bVpMutc27vpngCntGUZQETO24pEJ46zU6XM+7SpqYoMgcO3bM11Ew==}
+  /@tsconfig/node18@18.2.4:
+    resolution: {integrity: sha512-5xxU8vVs9/FNcvm3gE07fPbn9tl6tqGGWA9tSlwsUEkBxtRnTsNmwrV8gasZ9F/EobaSv9+nu8AxUKccw77JpQ==}
     dev: true
 
   /@types/babel__core@7.20.1:
