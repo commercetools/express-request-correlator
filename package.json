@@ -49,16 +49,16 @@
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.0",
-    "@changesets/cli": "2.27.5",
+    "@changesets/cli": "2.27.7",
     "@commercetools-backend/eslint-config-node": "22.28.0",
     "@commercetools-frontend/babel-preset-mc-app": "22.28.0",
     "@commitlint/cli": "19.3.0",
     "@commitlint/config-conventional": "19.2.2",
     "@manypkg/cli": "0.21.4",
-    "@preconstruct/cli": "2.8.4",
+    "@preconstruct/cli": "2.8.5",
     "@tsconfig/node18": "18.2.4",
     "@types/jest": "29.5.12",
-    "@types/node": "20.14.2",
+    "@types/node": "20.14.9",
     "babel-jest": "29.7.0",
     "cross-env": "7.0.3",
     "eslint": "8.57.0",
@@ -73,7 +73,7 @@
     "lint-staged": "15.2.7",
     "prettier": "2.8.8",
     "ts-jest": "29.1.5",
-    "typescript": "5.4.5"
+    "typescript": "5.5.3"
   },
   "peerDependencies": {
     "express": ">=4"
@@ -87,5 +87,5 @@
   "engines": {
     "node": ">=16"
   },
-  "packageManager": "pnpm@9.3.0"
+  "packageManager": "pnpm@9.4.0"
 }
