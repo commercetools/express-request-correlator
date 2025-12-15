@@ -85,7 +85,7 @@
     "tracing"
   ],
   "engines": {
-    "node": ">=16"
+    "node": ">=24"
   },
   "packageManager": "pnpm@10.26.0"
 }
