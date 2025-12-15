@@ -1,5 +1,11 @@
 # @commercetools/express-request-correlator
 
+## 3.0.3
+
+### Patch Changes
+
+- [#127](https://github.com/commercetools/express-request-correlator/pull/127) [`e1e964d`](https://github.com/commercetools/express-request-correlator/commit/e1e964d58a2cb98f64c3b02e659178247675147b) Thanks [@tdeekens](https://github.com/tdeekens)! - Refactor to use trusted publishing.
+
 ## 3.0.2
 
 ### Patch Changes
