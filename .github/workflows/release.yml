@@ -8,6 +8,9 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
 
     steps:
       # Get GitHub token via the CT Changesets App
@@ -26,6 +29,11 @@ jobs:
           # https://github.community/t/action-does-not-trigger-another-on-push-tag-action/17148/8
           token: ${{ steps.generate_github_token.outputs.token }}
 
+      - name: Verify npm version
+        run: |
+          npm --version
+          # Ensure latest npm is installed for trusted publishing (OIDC)
+
       - name: Install pnpm
         uses: pnpm/action-setup@v4.2.0
         with:
@@ -39,15 +47,6 @@ jobs:
 
       - name: Install dependencies
         run: pnpm install
-
-      - name: Creating .npmrc
-        run: |
-          cat << EOF > "$HOME/.npmrc"
-            email=npmjs@commercetools.com
-            //registry.npmjs.org/:_authToken=$NPM_TOKEN
-          EOF
-        env:
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
       - name: Building packages
         run: pnpm build
