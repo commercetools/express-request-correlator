@@ -1,5 +1,13 @@
 # @commercetools/express-request-correlator
 
+## 4.0.0
+
+### Major Changes
+
+- [#112](https://github.com/commercetools/express-request-correlator/pull/112) [`9b152e8`](https://github.com/commercetools/express-request-correlator/commit/9b152e8d91d2b802c6f0f9360a79cebe56432963) Thanks [@renovate](https://github.com/apps/renovate)! - Update dependency express to v5
+
+  While there are no changes in the library itself the upgrade updates express's request type which can cause breaking changes for you when using express v4.
+
 ## 3.0.3
 
 ### Patch Changes
