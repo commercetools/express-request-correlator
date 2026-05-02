@@ -45,7 +45,7 @@
     "@babel/runtime-corejs3": "^7.22.5",
     "@types/express": "5.0.6",
     "@types/uuid": "9.0.8",
-    "uuid": "9.0.1"
+    "uuid": "14.0.0"
   },
   "devDependencies": {
     "@changesets/changelog-github": "0.5.2",
